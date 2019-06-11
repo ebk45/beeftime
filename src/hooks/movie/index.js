@@ -32,7 +32,7 @@ const useMovie = (movieId, variant, http = axios) => {
   useEffect(() => {
     fetchMovieData();
     return setMovie(null);
-  }, []);
+  }, [movieId]);
 
   const createReview = async (movie, event) => {
     try {

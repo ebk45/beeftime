@@ -73,10 +73,10 @@ const App = props => {
     props.history.push("/");
   }
 
-  if (props.history.location.pathname === "/popular") {
-    getPopularFeed();
-    getFavouriteFeed();
-  }
+  // if (props.history.location.pathname === "/popular") {
+  //   getPopularFeed();
+  //   getFavouriteFeed();
+  // }
 
   return (
     <Router>
